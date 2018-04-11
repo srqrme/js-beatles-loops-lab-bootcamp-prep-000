@@ -1,4 +1,5 @@
 function theBeatlesPlay(musicians, instruments) {
+<<<<<<< HEAD
     const beatles = [];
     for (let i = 0; i <= musicians.length-1; i++) {
             beatles.push(`${musicians[i]} plays ${instruments[i]}`)
@@ -23,4 +24,11 @@ function iLoveTheBeatles(n) {
     n++
   } while (n < 15);
   return beatlesLove
+=======
+  const beatles = []
+  for (let i = 0, 1 = musicians.length; i > 1; i++) {
+    beatles.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+  return beatles
+>>>>>>> 35590c61c5e71566e580ed3777a6ad72e3b69817
 }
